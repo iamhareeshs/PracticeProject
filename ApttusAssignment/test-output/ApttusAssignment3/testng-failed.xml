@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApttusAssignment3]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC001 : registerStationWithoutAPIKey(failed)">
+    <parameter name="statusCode" value="401"/>
+    <classes>
+      <class name="scenario_3.RegisterStationWithOutAPIKey">
+        <methods>
+          <include name="validateRegisterStation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- scenario_3.RegisterStationWithOutAPIKey -->
+    </classes>
+  </test> <!-- TC001 : registerStationWithoutAPIKey(failed) -->
+</suite> <!-- Failed suite [ApttusAssignment3] -->

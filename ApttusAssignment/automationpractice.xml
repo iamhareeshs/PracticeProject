@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ApttusAssignment1">
+	<test name="TC001 : validate Add to Cart functionality" parallel="classes">
+		<parameter name="email" value="jetblue@grr.la" />
+		<parameter name="password" value="jetblue" />
+		<parameter name="username" value="jet blue" />
+		<classes>
+			<class name="common.Start" />
+			<class name="scenario_1.AutomationPractice" />
+		</classes>
+	</test>
+	
+</suite>

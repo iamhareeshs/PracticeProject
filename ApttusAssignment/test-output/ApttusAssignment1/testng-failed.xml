@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApttusAssignment1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC001 : validate Add to Cart functionality(failed)">
+    <parameter name="password" value="jetblue"/>
+    <parameter name="email" value="jetblue@grr.la"/>
+    <parameter name="username" value="jet blue"/>
+    <classes>
+      <class name="scenario_1.AutomationPractice">
+        <methods>
+          <include name="validateAddToCart"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- scenario_1.AutomationPractice -->
+    </classes>
+  </test> <!-- TC001 : validate Add to Cart functionality(failed) -->
+</suite> <!-- Failed suite [ApttusAssignment1] -->
