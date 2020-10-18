@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class Start {
 	public static WebDriver driver;
-
+	//sample
 	@BeforeSuite
 	public void initialization() throws Exception {
 		System.out.println("Method Started");
