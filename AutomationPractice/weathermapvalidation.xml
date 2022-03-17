@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ApttusAssignment3">
+	<test name="TC001 : registerStationWithoutAPIKey" >
+	<parameter name="statusCode" value="401" />
+		<classes>
+			<class name="scenario_3.RegisterStationWithOutAPIKey" />
+		</classes>
+	</test>
+	<test name="TC002 :validateSuccessfulRegistration">
+	<parameter name="statusCode" value="201" />
+		<classes>
+			<class name="scenario_3.RegisterStation" />
+		</classes>
+	</test>
+	<test name="TC003 :validateCretedDatainDB">
+		<classes>
+			<class name="scenario_3.GetStationDetails" />
+		</classes>
+	</test>
+	<test name="TC004 :ValidateDeleteData">
+	<parameter name="statusCode" value="204" />
+		<classes>
+			<class name="scenario_3.DeleteStation" />
+		</classes>
+	</test>
+	<test name="TC005 :ValidateDeleteDataSecondTime">
+	<parameter name="statusCode" value="404" />
+		<classes>
+			<class name="scenario_3.DeleteStation" />
+		</classes>
+	</test>
+
+</suite>

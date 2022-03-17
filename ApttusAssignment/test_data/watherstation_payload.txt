@@ -1,7 +1,0 @@
-{
-  "external_id": "SF_TEST001",
-  "name": "San Francisco Test Station",
-  "latitude": 37.76,
-  "longitude": -122.43,
-  "altitude": 150
-}
