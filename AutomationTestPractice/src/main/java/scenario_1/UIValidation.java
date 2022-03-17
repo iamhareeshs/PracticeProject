@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import common.Start;
 import common.Util;
 
-public class AutomationPractice {
+public class UIValidation {
 	Util util = new Util();
 	static HashMap<String, String> prductDetails = new HashMap<String, String>();
 	/*
